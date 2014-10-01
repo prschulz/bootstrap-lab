@@ -1,0 +1,26 @@
+.breadcrumb {
+  background-color: white;
+}
+
+.social {
+  height: 25px;
+  width: 25px;
+  margin: 2px
+}
+
+.body {
+  padding-bottom: 20px;
+}
+
+.boxed {
+  border: 3px solid #999999;
+  padding: 30px;
+}
+
+.title {
+  padding-bottom: 30px;
+}
+
+.jumbotron {
+
+}
