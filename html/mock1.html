@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Products</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
@@ -11,17 +12,103 @@
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="lab1.css">
 </head>
+
 <body>
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
+<nav class="navbar navbar-default ">
+  <div class="container">
 
-    </div>
-    <div class="col-md-8">
+    <p class="navbar-brand"> <!-- COMPANY LOGO -->
+      Company Logo
+    </p>
 
-    </div>
+    <!-- Navigation List -->
+    <ul class="list-inline nav navbar-nav navbar-right">
+      <li><a href="#">Home</a></li>
+      <li class="active"><a href="#">Products</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Contact us</a></li>
+
+      <!-- SEARCH BUTTON -->
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+      </form>
+    </ul>
   </div>
+</nav>
+
+<div class="container">
+
+<!-- BREADCRUMBS -->
+  <ol class="breadcrumb list-inline">
+    <li><a href="#">Home</a></li>
+    <li class="active">Products</li>
+  </ol>
+
+  <!-- HEADER TITLE -->
+  <h1>Products. <small>We build amazing stuff.</small></h1>
+
+  <!-- Horizontal Divider -->
+  <hr></hr>
+  <br />
+
+  <!-- 3 Columns -->
+  <section class="row">
+    <div class="col-md-4">
+      <img src="http://placekitten.com/g/350/200" alt="">
+      <h3>Cat 1</h3>
+      <p>A nice cat.</p>
+       <br>
+      <div class="btn btn-primary">Learn more</div>
+    </div>
+    <div class="col-md-4">
+      <img src="http://placekitten.com/g/350/200" alt="">
+      <h3>Cat 2</h3>
+      <p>A mean cat.</p>
+       <br>
+      <div class="btn btn-primary">Learn more</div>
+    </div>
+    <div class="col-md-4">
+      <img src="http://placekitten.com/g/350/200" alt="">
+      <h3>Cat 3</h3>
+      <p>A okay cat.</p>
+      <br>
+      <div class="btn btn-primary">Learn more</div>
+    </div>
+  </section>
+
+  <!-- Horizontal Divider -->
+  <br>
+  <hr></hr>
+
+<!-- FOOTER START -->
+  <footer>
+  <br>
+    <h4 class="text-center">Want to get in touch? Email us at <a href="mailto:PRSchulz88@gmail.com">PRSchulz88@gmail.com</a></h4>
+  <br />
+  <hr />
+  <br>
+
+  <!-- SOCIAL ICONS -->
+    <div class="row text-center">
+      <img src="http://bestcamera.biz/wp-content/uploads/2014/08/twitter-logo-black-and-white.jpg" alt="..." class="img-rounded social">
+      <img src="http://bestcamera.biz/wp-content/uploads/2014/08/facebook-logo-black.jpg" alt="..." class="img-rounded social">
+      <img src="http://www.achieveyourpeak.com/wp-content/uploads/2014/07/linkedin-icon-black.png" alt="..." class="img-rounded social">
+    </div>
+
+    <br>
+
+    <!-- COPYRIGHT -->
+    <div class="text-center small">
+      <p>&copy; Copyright 2013. Product Name. All rights reserved.</p>
+    </div>
+
+</footer>
+
 </div>
 
 </body>
